@@ -1,0 +1,26 @@
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+}
+
+.animate-fade-out-1 {
+  animation: fadeOut 0.5s ease-in-out;
+}
+
+.animate-fade-out-2 {
+  animation: fadeOut 0.5s ease-in-out 0.2s;
+}
+
+.animate-fade-out-3 {
+  animation: fadeOut 0.5s ease-in-out 0.4s;
+}
+
+.animate-fade-out-4 {
+  animation: fadeOut 0.5s ease-in-out 0.6s;
+}
